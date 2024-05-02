@@ -1,0 +1,12 @@
+/backend/venv
+
+/backend/ml_model/node_modules
+/backend/ml_model/uploads
+/backend/ml_model/results
+
+/backend/Yolo-Weights
+/backend/node_modules
+
+/ml_frontend/node_modules
+
+/testing

@@ -1,0 +1,25 @@
+{
+  "name": "automotive-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "its_mahi",
+  "license": "ISC",
+  "dependencies": {
+    "@auth0/nextjs-auth0": "^3.5.0",
+    "@clerk/clerk-react": "^4.30.7",
+    "@clerk/clerk-sdk-node": "^4.13.11",
+    "axios": "^1.6.8",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.3"
+  }
+}

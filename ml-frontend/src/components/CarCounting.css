@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* background: linear-gradient(135deg, #0d0a09, #4c4c4c); */
+    background: #606c88;
+    background: -webkit-linear-gradient(82deg, #606c88 0%, #000000 50%, #3f4c6b 100%);
+    background: linear-gradient(82deg, #606c88 0%, #000000 50%, #3f4c6b 100%);
+    background-size: cover;
+    /* background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 40%, rgba(91,91,91,1) 100%); */
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .heading {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+
+  .submit {
+    width: 100%;
+  }
+
+  .sub-heading {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+
+  .upload-box {
+    text-align: center;
+    width: 700px;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* background: rgba(255,255,255,0.5); */
+
+    /* From https://css.glass */
+    background: rgba(136, 136, 136, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.6px);
+    -webkit-backdrop-filter: blur(12.6px);
+    border: 1px solid rgba(136, 136, 136, 0.17);
+    
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.25);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 16px rgb(97, 97, 97);
+  }
+
+  .upload-box p {
+    margin-bottom: 10px;
+  }
+
+  .upload-box input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #084cdf;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+  }
+
+  .upload-box button  {
+    background: green;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    width: 100%;
+  }
