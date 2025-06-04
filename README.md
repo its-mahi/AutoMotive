@@ -2,6 +2,8 @@
 
 **Automotive** is an innovative project that combines machine learning, image processing, and MERN stack technologies to provide automated solutions for vehicle-related tasks such as number plate recognition, parking space detection, and vehicle counting. 
 
+**[Project Report](https://drive.google.com/file/d/1t0Do4iCK7Zb5ChaPKvg2nWX4jlthhyKI/view)**
+
 ## Features
 
 ### 1. Number Plate Recognition
